@@ -1,0 +1,50 @@
+{
+    "3733": {
+        "post_url": "https://javarush.ru/groups/posts/3733-it-novosti-14-janvarja-boljhshinstvo-zagruzok-vredonosnogo-softa-svjazano-s-oblachnihmi-prilozh",
+        "post_title": "IT-новости 14 января: Большинство загрузок вредоносного софта связано с облачными приложениями, хакеры атаковали украинские правительственные сайты, YouTube тестирует новую функцию Smart Downloads"
+    },
+    "3732": {
+        "post_url": "https://javarush.ru/groups/posts/3732-videouikend-109-ijshem-vershinu-karjherih-razrabotchika-vihjasnjaem-roljh-java-v-serverless-raz",
+        "post_title": "Видеоуикенд #109. Ищем вершину карьеры разработчика, выясняем роль Java в serverless-разработке, учимся проводить онлайн-встречи эффективно и узнаем о жизни программистов во Франции"
+    },
+    "3731": {
+        "post_url": "https://javarush.ru/groups/posts/3731-it-novosti-13-janvarja-github-udalil-sotni-forkov-piratskogo-instrumenta-android-12l-beta-2-pol",
+        "post_title": "IT-новости 13 января: GitHub удалил сотни форков пиратского инструмента, Android 12L Beta 2 получила опцию “картинка в картинке”, в пакете программ “Мой офис” появилась проверка исполнения кода"
+    },
+    "3730": {
+        "post_url": "https://javarush.ru/groups/posts/3730-it-novosti-12-janvarja-java-zanjal-vtoroe-mesto-sredi-samihkh-vostrebovannihkh-jazihkov-u-it-re",
+        "post_title": "IT-новости 12 января: Java занял второе место среди самых востребованных языков у IT-рекрутеров, уязвимость в Log4j останется проблемой “на несколько лет”, в 2021 году разработчики выпустили 2 миллиона новых приложений"
+    },
+    "3729": {
+        "post_url": "https://javarush.ru/groups/posts/3729-v-zakladki-podborka-statey-ob-instrumentakh-dlja-java-razrabotchika--maven-docker-github-i-drug",
+        "post_title": "В закладки: подборка статей об инструментах для Java-разработчика — Maven, Docker, GitHub и других"
+    },
+    "3728": {
+        "post_url": "https://javarush.ru/groups/posts/3728-it-novosti-11-janvarja-apple-obvinili-v-travle-podrostkov-iz-za-otkaza-ot-vnedrenija-tekhnologi",
+        "post_title": "IT-новости 11 января: Apple обвинили в травле подростков из-за отказа от внедрения технологии RCS, разработчики все еще продолжают загружать уязвимые версии Log4j, Google работает над функцией передачи мультимедиа касанием устройств"
+    },
+    "3727": {
+        "post_url": "https://javarush.ru/groups/posts/3727-it-novosti-10-janvarja-v-libreoffice-73-dobavili-podderzhku-klingonskogo-i-mezhslavjanskogo-jaz",
+        "post_title": "IT-новости 10 января: В LibreOffice 7.3 добавили поддержку клингонского и межславянского языков, в США составили рейтинг софт-скиллов, разработчик намеренно испортил в GitHub популярные библиотеки ПО"
+    },
+    "3726": {
+        "post_url": "https://javarush.ru/groups/posts/3726-gitflic-rossiyskiy-analog-github-vihshel-iz-betih-posmotrim-chto-tam",
+        "post_title": "GitFlic: Российский аналог GitHub вышел из беты. Посмотрим, что там"
+    },
+    "3725": {
+        "post_url": "https://javarush.ru/groups/posts/3725-trendih-java-v-2022-godu-jdk-18-i-19-project-loom-i-data-mesh",
+        "post_title": "Тренды Java в 2022 году: JDK 18 и 19, Project Loom и Data mesh"
+    },
+    "3724": {
+        "post_url": "https://javarush.ru/groups/posts/3724-o-poljhze-argv",
+        "post_title": "О пользе argv"
+    },
+    "3723": {
+        "post_url": "https://javarush.ru/groups/posts/3723-kofe-breyk-107-metod-constructor-v-java-i-peregruzka-constructor-abstraktnihe-klassih-i-interfe",
+        "post_title": "Кофе-брейк #107. Метод Constructor в Java I Перегрузка Constructor. Абстрактные классы и интерфейсы Java"
+    },
+    "3722": {
+        "post_url": "https://javarush.ru/groups/posts/3722-it-novosti-29-dekabrja-jazihk-java-zanjal-4-e-mesto-v-reytinge-samihkh-vostrebovannihkh-tekhnic",
+        "post_title": "IT-новости 29 декабря: В обновлении Apache Log4j обнаружили очередную уязвимость Log4Shell, Java занял 4-е место в рейтинге самых востребованных технических навыков в США, Дуров раскритиковал конкурентов за внедрение бэкдоров"
+    }
+}
