@@ -11,7 +11,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands="start")
 async def start(message: types.Message):  # функция по команде старт для вывода кнопок
-    start_buttons = ["Новости JavaRush", "Новости The Code", "Новости TechCrunch"]
+    start_buttons = ["Новости JavaRush", "Новости КОД", "Новости TechCrunch"]
     keyword = types.ReplyKeyboardMarkup(resize_keyboard=True)
     keyword.add(*start_buttons)
     await message.answer("Приветствую! Выбери действие ", reply_markup=keyword)
@@ -28,9 +28,9 @@ async def get_all_news(message: types.Message):  # функция для выв�
         await message.answer(news)
 
 
-@dp.message_handler(Text(equals="Новости The Code"))
+@dp.message_handler(Text(equals="Новости КОД"))
 async def get_all_news(message: types.Message):
-    with open("javarush_data_base.json") as file:
+    with open("code_data_base.json") as file:
         news_file = json.load(file)
 
     for k, v, in sorted(news_file.items()):
