@@ -4,6 +4,8 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.utils.markdown import hlink
 from aiogram.dispatcher.filters import Text
 from Config import token
+from Javarush_parser import get_news
+from Code_parser import get_news_code
 
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
@@ -19,6 +21,8 @@ async def start(message: types.Message):  # функция по команде �
 
 @dp.message_handler(Text(equals="Новости JavaRush"))
 async def get_all_news(message: types.Message):  # функция для вывода всех новостей из списка
+    #загрузи джейсон заново
+    get_news()
     with open("javarush_data_base.json") as file:
         news_file = json.load(file)
 
@@ -30,6 +34,8 @@ async def get_all_news(message: types.Message):  # функция для выв�
 
 @dp.message_handler(Text(equals="Новости КОД"))
 async def get_all_news(message: types.Message):
+    #загрузи джейсон заново
+    get_news_code()
     with open("code_data_base.json") as file:
         news_file = json.load(file)
 
