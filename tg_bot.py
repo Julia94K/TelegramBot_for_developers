@@ -6,6 +6,8 @@ from aiogram.dispatcher.filters import Text
 from Config import token
 from Javarush_parser import get_news
 from Code_parser import get_news_code
+from TechCrunch import get_news_tech1
+
 
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
@@ -41,6 +43,19 @@ async def get_all_news(message: types.Message):
 
     for k, v, in sorted(news_file.items()):
         news = f"{hlink(v['post_title'], v['post_url'])}"
+
+        await message.answer(news)
+
+
+@dp.message_handler(Text(equals="Новости TechCrunch"))
+async def get_news_tech(message: types.Message):
+    #загрузи джейсон заново
+    get_news_tech1()
+    with open("techcrunch_data_base.json") as file:
+        news_file = json.load(file)
+
+    for k, v, in sorted(news_file.items()):
+        news = f"{hlink(v['article_title'], v['article_url'])}"
 
         await message.answer(news)
 
