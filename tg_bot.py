@@ -27,7 +27,7 @@ async def start(message: types.Message):  # функция по команде �
 #настраиваем клавиатуру
 urlkb = InlineKeyboardMarkup(row_width=1)
 urlButton = InlineKeyboardButton(text='Задачи Javarush', url='https://javarush.ru/tasks')
-urlButton2 = InlineKeyboardButton(text='Леции Javarush',url='https://javarush.ru/quests/lectures')
+urlButton2 = InlineKeyboardButton(text='Лекции Javarush',url='https://javarush.ru/quests/lectures')
 urlkb.add(urlButton,urlButton2)
 
 #метод для вызова Inlinekeyboard с кнопками-ссылками
